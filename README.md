@@ -10,6 +10,12 @@ Administration is via Settings > Site Snippets. Snippets have header comments ex
 - **Wordpress login rebrand** - swap the wordpress logo for your own. Modify the dimensions and path to suit; defaults to logo.svg in your theme directory
 - **Allow SVG upload** - there are more thorough plugins that mitigate the securoty risks associated with the file type, but if your site does not have user-generated content (uploads from untrusted parties) then this is a simple solution.
 
+## ACF Blocks
+
+Each block lives in its own subdirectory under `blocks/`, with a `block.json`, `render.php`, and optional `style.css`. Blocks are registered via `acf_register_block_type()` and require ACF (Free or Pro, 5.8+) to be active. Enabled/disabled independently from PHP modules on the same admin page.
+
+- **Short Title** — displays the current page's `short_title` custom field (falls back to post title).
+
 ---
 
 Plugin coded by Qwen3.6-plus, prompted, validated and tested by me.

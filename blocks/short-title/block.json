@@ -1,0 +1,19 @@
+{
+	"apiVersion": 3,
+	"name": "rav/short-title",
+	"title": "Short Title",
+	"description": "Displays the page's short_title custom field.",
+	"category": "widgets",
+	"icon": "heading",
+	"keywords": ["short title", "heading"],
+	"acf": {
+		"mode": "preview",
+		"renderTemplate": "render.php"
+	},
+	"supports": {
+		"align": false,
+		"anchor": true,
+		"className": true,
+		"customClassName": true
+	}
+}
