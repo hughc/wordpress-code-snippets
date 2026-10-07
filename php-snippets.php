@@ -1,11 +1,12 @@
 <?php
 
 /**
- * Plugin Name: RAV Site Snippets
+ * Plugin Name: PHP Snippets Manager
  * Description: A library of small, toggleable code snippets for common site customisations.
  * Version: 1.1.0
- * Author: RAV
- * Text Domain: rav-snippets
+ * Author: Hugh Campbell
+ * Github Plugin URI: https://github.com/hughc/php-snippets
+ * Text Domain: php-snippets
  */
 
 use PhPSnippets\Debug;

@@ -2,7 +2,7 @@
 
 /**
  * Module: Rebrand WP Login
- * Description: Replace the default WordPress logo on wp-login.php with a custom site logo.
+ * Description: Replace the default WordPress logo on wp-login.php with a custom site logo. Define PHP_SNIPPETS_LOGIN_LOGO_URL, PHP_SNIPPETS_LOGIN_LOGO_WIDTH and PHP_SNIPPETS_LOGIN_LOGO_LINK to override defaults (/images/login-logo.svg , 320px, '/') 
  */
 
 if (! defined('ABSPATH')) {
